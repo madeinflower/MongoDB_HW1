@@ -1,0 +1,8 @@
+use homeworks
+
+db.users.insertMany([
+  { _id: 1, firstname: "Анатолий", lastname: "Ушанов", age: 28, gender: "m" },
+  { _id: 2, firstname: "Светлана", lastname: "Демидова", age: 25, gender: "f" },
+  { _id: 3, firstname: "Никита", lastname: "Иванов", age: 33, gender: "m" },
+  { _id: 4, firstname: "Ольга", lastname: "Петрова", age: 22, gender: "f" }
+])
